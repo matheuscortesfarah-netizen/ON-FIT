@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+:root{
+    background-color:rgb(63, 60, 60);
+}
+body{
+    background-color:  rgb(151, 151, 151);
+    color: rgb(250, 250, 250);
+    background-color:rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: rgb(2, 255, 44);
+}
+/*MENU*/
+.header{
+    width: 100%;
+    min-height: 105px;
+    padding: 20px 4%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: 000;
+    border-bottom: 1px  solid 222;
+    position: relative;
+    z-index: 100;
+}
+
+.logo{
+    color: rgb(75, 223, 17);
+    font: size 42px;
+    font-weight: 900;
+    letter-spacing: -2px;
+}
+
+.logo span{
+    color: rgb(43, 255, 0);
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.menu a{
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(113, 219, 6);
+    transition: 0.3s;
+    
+    
+    
+}
+.menu.batão-menu{
+    background:green;
+    color: black;
+    padding: 16px 22px;
+    border-radius: 30px;
+
+}
+
+.menu.batão-menu:hover{
+    background: white;
+    transform: scale(1.05);
+
+}
+
+.menu.mobile{
+    display: none;
+    color: chartreuse;
+    background: transparent;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+/*primeira seção*/
+.hero{
+    min-height: 570px;
+    display: grid;
+    grid-template-columns: 38% 62%;
+    overflow: hidden;
+
+}
+
+.hero-logo{
+    background: 000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:40px;
+
+}
+.simbolo{
+    color: chartreuse;
+    font-size: 190px;
+    font-weight: bold;
+    border: 12px solid var(green);
+    border-radius: 50%;
+    width: 230px;
+    height: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+
+}
+.hero-logo h1{
+    color: aquamarine;
+    margin-top: 12px;
+    text-align: center;
+}
+
+
+
