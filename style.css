@@ -6,10 +6,10 @@
 }
 
 :root {
-    --verde: #7CFF00;
-    --preto: #050505;
+    --verde: #0fff07;
+    --preto: #000000;
     --branco: #ffffff;
-    --cinza: #171717;
+    --cinza: #6268623f;
 }
 
 body {
@@ -39,6 +39,7 @@ a {
 }
 
 .logo {
+    width: 180px;
     color: var(--verde);
     font-size: 42px;
     font-weight: 900;
@@ -47,6 +48,12 @@ a {
 
 .logo span {
     color: white;
+
+}
+
+#ON{
+    height: 60px;
+    width: 50px;
 }
 
 .menu {
@@ -198,7 +205,7 @@ a {
     min-height: 380px;
     background:
         linear-gradient(90deg, transparent, rgba(0,0,0,.15)),
-        url("https://images.unsplash.com/photo-1534438327276-14e5300c3a48")
+        url("./imagens/file_00000000d720820e8bd54fc62a908f3d.png")
         center/cover;
     clip-path: polygon(0 0, 100% 0, 80% 100%, 0 100%);
 }
