@@ -6,7 +6,7 @@
 }
 
 :root {
-    --verde: #50f14a;
+    --verde: #49ee43;
     --preto: #000000;
     --branco: #ffffff;
     --cinza: #0000003f;
@@ -204,7 +204,7 @@ a {
 .imagem-academia {
     min-height: 380px;
     background:
-        linear-gradient(90deg, transparent, rgba(0,0,0,.15)),
+        linear-gradient(90deg, transparent, rgba(0, 0, 0, 0.15)),
         url("./imagens/file_00000000d720820e8bd54fc62a908f3d.png")
         center/cover;
     clip-path: polygon(0 0, 100% 0, 80% 100%, 0 100%);
@@ -242,7 +242,7 @@ a {
 .servicos {
     padding: 100px 7%;
     text-align: center;
-    background: #101010;
+    background: #000000;
 }
 
 .servicos > span {
