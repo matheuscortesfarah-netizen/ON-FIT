@@ -35,7 +35,9 @@ a {
     background: #000;
     border-bottom: 1px solid #222;
     position: relative;
-    z-index: 100;
+    z-index: 1000;
+    position: fixed;
+    
 }
 
 .logo {
@@ -358,6 +360,16 @@ footer p {
     color: #777;
     font-size: 13px;
 }
+
+.marca {bottom: -95px;
+left: 10px;
+
+font-size: 230px;
+font-weight: bold;
+color: #49ee43;
+margin: 0;
+z-index: 1;
+;}
 
 /* ANIMAÇÕES */
 .reveal {
