@@ -1,0 +1,56 @@
+!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recrutamento</title>
+    <link rel="stylesheet" href="teste.css">
+</head>
+
+<body>
+    <main class="container">
+        <div class="icone">
+            <img src="./img/Sasuke_CS1.webp" alt="Sasuke-logo">
+        </div>
+
+        <h1>CADASTRE-SE</h1>
+        <P>Preencha o formulário para fazer parte da On-Fit conosco!</P>
+
+        <form id="formulario">
+            <label for="nome">Nome Completo:</label>
+            <input type="text" id="nome" placeholder="Digite seu nome">
+
+            <label for="email">Qual seu email:</label>
+            <input type="text" id="email" placeholder="Qual seu email..." required>
+
+            <label for="telefone">Telefone:</label>
+            <input type="tel" id="telefone" placeholder="(11)94002-8922">
+
+
+            <label for="nome">Selecione a melhor localização:</label>
+            <select id="localizaçao" required>
+                <option value="São Luis">Rua Vinte e oito n°42 - São Luis</option>
+                <option value="Renascença">Av. Coronel Colaris Moreira 250 - Renascença</option>
+                <option value="Cohama">Av. Daniel De La Touche 850 - Cohama</option>
+                <option value="Operária">Av. Principal 120 - Cidade Operária</option>
+            </select>
+
+            <!--  -->
+
+            <label for="mensagem" id="paragrafo">Faz exercícios por recomendação médica? Se Sim, Por qual motivo.</label>
+            <textarea id="mensagem" placeholder="Digite Aqui"></textarea>
+
+            <div class="botao">
+                <button type="submit">Enviar Solicitação</button>
+            </div>
+        </form>
+
+
+
+    </main>
+
+    <script src="./teste.js"></script>
+</body>
+
+</html>
