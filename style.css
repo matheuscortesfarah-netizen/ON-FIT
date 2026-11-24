@@ -469,4 +469,91 @@ footer p {
         ;
     }
 
+    #sobre {
+        background: #13242e;
+    }
+    
+    #sobre p {
+        color: #ddd;
+        margin: 20px 0;
+    }
+    
+    .contato {
+        margin: 30px 0;
+    }
+    
+    footer {
+        text-align: center;
+        padding: 35px;
+        background: #050c12;
+        border-top: 1px solid #63ef3760;
+    }
+    
+    footer h2 {
+        color: var(--verde);
+    }
+    
+    footer p {
+        color: #aaa;
+        margin-top: 10px;
+    }
+    section {
+        padding: 55px 6%;
+    }
+
+    .rodape{
+        display: flex;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .contato-footer {
+        margin: 30px 0;
+        
+    }
+
+    #sobre-footer{
+
+    text-align: center;
+    }
+    
+    #sobre-footer p {
+        color: #ddd;
+        margin: 20px 0;
+    }
+
+    @media (max-width: 768px) {
+
+        #menuBtn {
+            display: block;
+        }
+    
+        nav {
+            display: none;
+            position: absolute;
+            top: 75px;
+            left: 0;
+            width: 100%;
+            background: #08141d;
+            flex-direction: column;
+            padding: 25px;
+        }
+    
+        nav.ativo {
+            display: flex;
+        }
+    
+        .banner h2 {
+            font-size: 40px;
+        }
+    
+        .container {
+            grid-template-columns: 1fr;
+        }
+    
+        section {
+            padding: 55px 6%;
+        }
+    }
+    
 
